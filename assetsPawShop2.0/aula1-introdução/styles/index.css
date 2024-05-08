@@ -1,0 +1,46 @@
+:root{
+    --azul : #6EB3D0;
+    --verde : #B6D7A8;
+    --rosa : #F7B6D2;
+    --laranja : #F4A623;
+    --preto : #000000;
+    --branco : #FFFFFF;
+}
+
+header nav{
+    background-color: var(--azul);
+}
+
+#introducao{
+    color: var(--azul);
+}
+
+footer{
+    background-color: var(--azul);
+}
+
+#catalogo h3, #catalogo h4{
+    color: var(--laranja);
+}
+
+.card h5{
+    color: var(--verde);
+}
+
+.card-body button{
+    background-color: var(--rosa)!important;
+    border-radius: 0%!important;
+    border: none!important;
+    color: var(--preto)!important;
+}
+
+#adote h3{
+    color: var(--rosa);
+}
+
+#adotePet h4{
+    color: var(--azul);
+}
+
+/* .btn-primary{
+} */
